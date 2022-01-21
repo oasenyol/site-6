@@ -1,211 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Manage landing page</title>
+    <script
+      src="https://kit.fontawesome.com/38e2b1cd09.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+  </head>
 
-  <title>Frontend Mentor | Manage landing page</title>
-  <script src="https://kit.fontawesome.com/38e2b1cd09.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <body>
+    <header>
+      <div class="nav-container">
+        <nav class="navbar">
+          <a href="#"><img src="images/logo.svg" alt="" /></a>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <ul class="nav-linkler">
+            <li class="nav-item"><a href="#">Pricing</a></li>
+            <li class="nav-item"><a href="#">Product</a></li>
+            <li class="nav-item"><a href="#">About Us</a></li>
+            <li class="nav-item"><a href="#">Careers</a></li>
+            <li class="nav-item"><a href="#">Community</a></li>
+          </ul>
+          <div class="navbar-btn">
+            <button>Get Started</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="navbar-arka-foto">
+      <img src="images/bg-tablet-pattern.svg" alt="" />
+    </div>
 
-
-
-
-</head>
-
-<body>
-  <header>
-    <div class="nav-container">
-      <nav class="navbar">
-        <a href="#"><img src="images/logo.svg" alt=""></a>
-        <div class="menu-toggle" id="mobile-menu">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </div>
-        <ul class="nav-linkler">
-          <li class="nav-item"><a href="#">Pricing</a></li>
-          <li class="nav-item"><a href="#">Product</a></li>
-          <li class="nav-item"><a href="#">About Us</a></li>
-          <li class="nav-item"><a href="#">Careers</a></li>
-          <li class="nav-item"><a href="#">Community</a></li>
-        </ul>
-        <div class="navbar-btn">
+    <div class="slider">
+      <div>
+        <div class="slider-info">
+          <h1>Bring everyone together to build better products.</h1>
+          <p>
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
           <button>Get Started</button>
         </div>
-      </nav>
-    </div>
-  </header>
-  <div class="navbar-arka-foto">
-    <img src="images/bg-tablet-pattern.svg" alt="">
-  </div>
-
-  <div class="slider">
-    <div>
-      <div class="slider-info">
-        <h1>Bring everyone together to build better products.</h1>
-        <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in
-          view.
-        </p>
-        <button>Get Started</button>
-      </div>
-      <div class="ön-foto">
-        <img src="images/illustration-intro.svg" alt="">
-      </div>
-    </div>
-    <div>
-      <div class="second-slider">
-        <h1>Simplify how your team works today.
-        </h1>
-        <img src="images/logo.svg" alt="">
-      </div>
-    </div>
-    <div>
-      <div class="second-slider">
-        <img src="images/logo.svg" alt="">
-        <p>
-          OASENYOL
-          CEO
-        </p>
-        <img style="border-radius: 50%; width: 50%;"
-          src="https://pbs.twimg.com/profile_images/1477060924599148544/LBLMRPHX_400x400.jpg" alt="">
-      </div>
-    </div>
-  </div>
-
-  <div class="information">
-    <div class="information-container">
-      <div class="left">
-        <h2>What’s different about Manage?</h2>
-        <p>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made
-          for
-          modern digital product teams.</p>
-      </div>
-      <div class="right">
-        <div class="one">
-          <div class="box">
-            01
-          </div>
-          <div>
-            <h3>Track company-wide progress </h3>
-            <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level
-              all
-              the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
-          </div>
+        <div class="ön-foto">
+          <img src="images/illustration-intro.svg" alt="" />
         </div>
-        <div class="one">
-          <div class="box">
-            02
-          </div>
-          <div>
-            <h3>Advanced built-in reports</h3>
-            <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps
-              you
-              build out the reports you need to keep key stakeholders informed.</p>
-          </div>
+      </div>
+      <div>
+        <div class="second-slider">
+          <h1>Simplify how your team works today.</h1>
+          <img src="images/logo.svg" alt="" />
         </div>
-        <div class="one">
-          <div class="box">
-            03
-          </div>
-          <div>
-            <h3>Everything you need in one place</h3>
-            <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents.
-              Manage
-              offers an all-in-one team productivity solution.</p>
-          </div>
+      </div>
+      <div>
+        <div class="second-slider">
+          <img src="images/logo.svg" alt="" />
+          <img
+            style="border-radius: 50%; width: 50%"
+            src="https://pbs.twimg.com/profile_images/1481692704195190796/gUEomF6Z_400x400.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="information-arka-foto">
-    <img src="images/bg-tablet-pattern.svg" alt="">
-  </div>
-
-  <div class="comments">
-    <div class="comments-container">
+    <div class="information">
+      <div class="information-container">
+        <div class="left">
+          <h2>What’s different about Manage?</h2>
+          <p>
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+        <div class="right">
+          <div class="one">
+            <div class="box">01</div>
+            <div>
+              <h3>Track company-wide progress</h3>
+              <p>
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+          </div>
+          <div class="one">
+            <div class="box">02</div>
+            <div>
+              <h3>Advanced built-in reports</h3>
+              <p>
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+          </div>
+          <div class="one">
+            <div class="box">03</div>
+            <div>
+              <h3>Everything you need in one place</h3>
+              <p>
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="information-arka-foto">
+        <img src="images/bg-tablet-pattern.svg" alt="" />
+      </div>
+    </div>
+    <div class="comments">
       <div class="anisha cerceve">
-        <div class="comments-foto"><img src="images/avatar-anisha.png" alt=""></div>
+        <div class="comments-foto">
+          <img src="images/avatar-anisha.png" alt="" />
+        </div>
         <h4>Anisha Li</h4>
-        <p> “Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all
-          times keeps everyone motivated.” </p>
+        <p>
+          “Manage has supercharged our team’s workflow. The ability to maintain
+          visibility on larger milestones at all times keeps everyone
+          motivated.”
+        </p>
       </div>
       <div class="ali cerceve">
-        <div class="comments-foto"><img src="images/avatar-ali.png" alt=""></div>
+        <div class="comments-foto">
+          <img src="images/avatar-ali.png" alt="" />
+        </div>
         <h4>Ali Bravo</h4>
-        <p> “We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel
-          confusion and everyone is much more focused.” </p>
+        <p>
+          “We have been able to cancel so many other subscriptions since using
+          Manage. There is no more cross-channel confusion and everyone is much
+          more focused.”
+        </p>
       </div>
       <div class="richard cerceve">
         <div class="comments-foto"><img src="images/avatar-richard.png""></div>
         <h4>Richard Watts</h4>
-        <p> “Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop
-          recommending them to everyone I talk to!” </p>
+        <p>
+          “Manage allows us to provide structure and process. It keeps us
+          organized and focused. I can’t stop recommending them to everyone I
+          talk to!”
+        </p>
+      </div>
+      <div class="ft cerceve">
+        <div class="comments-foto">
+          <img
+            src="https://pbs.twimg.com/profile_images/1481692704195190796/gUEomF6Z_400x400.jpg"
+            alt=""
+          />
+        </div>
+        <h4>Fatih Terim</h4>
+        <p>
+          “We have been able to cancel so many other subscriptions since using
+          Manage. There is no more cross-channel confusion and everyone is much
+          more focused.”
+        </p>
       </div>
     </div>
-    <button>Get Started</button>
-  </div>
-  <div class=" promo">
-          <div class="promo-container">
-            <div class="promo-foto">
-              <img src="images/bg-tablet-pattern.svg" alt="">
-            </div>
-            <h1>Simplify how your team works today.</h1>
-            <div><button>Get Started</button></div>
+    <div class="comments-btn">
+      <button>Get Started</button>
+    </div>
+    <div class="promo">
+      <div class="promo-container">
+        <div class="promo-foto">
+          <img src="images/bg-tablet-pattern.svg" alt="" />
+        </div>
+        <h1>Simplify how your team works today.</h1>
+        <div><button>Get Started</button></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-one">
+          <img src="images/logo.svg" alt="" />
+          <div class="icons">
+            <a href=""><span class="fab fa-facebook-square fa-2x"></span></a>
+            <a href=""><i class="fab fa-youtube-square fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fab fa-pinterest fa-2x"></i></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
           </div>
         </div>
+        <div class="footer-two">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-three">
+          <ul>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-four">
+          <input type="email" placeholder="Updates in your inbox..." />
+          <button>Go</button>
+        </div>
+      </div>
+      <div class="copy">Copyright 2020. All Rights Reserved</div>
+    </footer>
 
-        <footer>
-          <div class="footer-container">
-            <div class="footer-one">
-              <img src="images/logo.svg" alt="">
-              <div class="icons">
-                <i class="fab fa-facebook-square fa-2x"></i>
-                <i class="fab fa-youtube-square fa-2x"></i>
-                <i class="fab fa-twitter fa-2x"></i>
-                <i class="fab fa-pinterest fa-2x"></i>
-                <i class="fab fa-instagram fa-2x"></i>
-              </div>
-            </div>
-            <div class="footer-two">
-              <ul>
-                <li><a href="">Home</a> </li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Products</a> </li>
-                <li><a href="">About Us</a> </li>
-              </ul>
-            </div>
-            <div class="footer-three">
-              <ul>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">Privacy Policy</a></li>
-              </ul>
-            </div>
-            <div class="footer-four">
-              <input type="email" placeholder="Updates in your inbox...">
-              <button>Go</button>
-            </div>
-          </div>
-          <div>Copyright 2020. All Rights Reserved</div>
-        </footer>
+    <script
+      type=" text/javascript"
+      src="//code.jquery.com/jquery-3.6.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".slider").slick({});
+      });
+    </script>
 
-        <script type=" text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript">
-          $(document).ready(function () {
-            $('.slider').slick({
-
-            });
-          });
-        </script>
-</body>
-
+    <script>
+      $(".comments").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      });
+    </script>
+  </body>
 </html>
