@@ -380,10 +380,10 @@ footer {
     background-color: #fff;
     width: 90%;
     height: calc(70vh - 100px);
-    transform: translateY(-120%);
+    transform: translateY(-170%);
     text-align: center;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.5s ease-in-out;
     padding-inline-start: 0;
   }
   .nav-linkler li {
