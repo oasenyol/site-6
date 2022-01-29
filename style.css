@@ -34,6 +34,32 @@ p {
   color: hsl(227, 12%, 61%);
   letter-spacing: 1px;
 }
+.navbar li ul {
+  display: none;
+}
+.navbar ul li a:hover + .hidden,
+.hidden:hover {
+  display: block;
+}
+.navbar li:hover ul a {
+  line-height: 45px;
+}
+.nav-linkler li a {
+  display: block;
+  height: 50px;
+}
+.nav-linkler ul {
+  position: absolute;
+}
+.hidden {
+  z-index: 9999999999;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-top-right-radius: 50px;
+  background: #fff;
+}
+.hidden li {
+  margin-left: 20px;
+}
 .nav-container {
   padding-bottom: 100px;
   padding-top: 30px;
