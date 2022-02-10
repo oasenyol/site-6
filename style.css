@@ -48,6 +48,9 @@ p {
   display: block;
   height: 50px;
 }
+.nav-linkler ul li a:hover {
+  color: hsl(12, 88%, 59%);
+}
 .nav-linkler ul {
   position: absolute;
 }
@@ -515,13 +518,6 @@ footer {
   .information .right h3 {
     font-size: 15px;
     text-decoration: underline;
-  }
-  .information .right p {
-    text-align: start;
-    position: relative;
-    left: -80px;
-    top: 10%;
-    width: 135%;
   }
   .box {
     width: 100%;
